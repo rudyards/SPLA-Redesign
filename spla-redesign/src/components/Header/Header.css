@@ -3,8 +3,18 @@
     flex-direction: row-reverse;
     background: rgb(216 216 216);
     padding: 31px 26px 38px 26px;
-  }
+}
+
+.navbar-toggler {
+    background: none;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
 
 img {
-    width: 40vh;
+    width: 30vw;
 }
