@@ -1,20 +1,19 @@
 .navbar {
-    display: flex;
-    flex-direction: row-reverse;
-    background: rgb(216 216 216);
-    padding: 31px 26px 38px 26px;
+  display: flex;
+  flex-direction: row-reverse;
+  background: none;
+  padding: 31px 26px 38px 26px;
 }
 
 .navbar-toggler {
-    background: none;
-    border: none;
+  background: none;
+  border: none;
 }
 
 .navbar-toggler:focus {
-    outline: none;
+  outline: none;
 }
 
-
 img {
-    width: 30vw;
+  width: 30vw;
 }
