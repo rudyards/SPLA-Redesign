@@ -7,7 +7,7 @@ const Button = props => {
   return (
     <Row>
       <Col xs={{ span: 6, offset: 3 }} lg={{ span: 4, offset: 2 }}>
-        <button className="btn">I'm a button!</button>
+        <button className="btn">{props.buttonName}</button>
       </Col>
     </Row>
   );
