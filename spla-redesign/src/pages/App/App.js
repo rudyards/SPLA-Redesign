@@ -14,6 +14,7 @@ class App extends Component {
     return(
       <div>
         <h1>Hello World</h1>
+        <img src="//static1.squarespace.com/static/582dc9ea6a4963e5091cd8cd/t/58eeee60414fb57371fdf24d/1561049620762/?format=1500w" alt="Safe Parking LA" class="Header-branding-logo"></img>
       </div>
     )
   }
