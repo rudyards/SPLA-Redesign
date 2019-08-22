@@ -22,7 +22,6 @@
 .site-content {
   flex: 1 0 auto;
   padding: var(--space) var(--space) 0;
-  width: 100%;
   justify-content: center;
 }
 
@@ -39,16 +38,33 @@
   text-align: center;
 }
 
+.home-welcome {
+  background: url("https://i.imgur.com/qt1zREv.png");
+  background-size: cover;
+  height: 394pt;
+  align-items: center;
+}
+
+.home-welcome > h3 {
+  color: rgb(255, 255, 255);
+}
+
 .home-welcome-msg {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   letter-spacing: 0.1pt;
+  color: rgb(255, 255, 255);
 }
 
 .home-about-msg {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 18px;
   letter-spacing: 0.09pt;
+}
+
+.phone-num {
+  color: #11679b;
 }
 
 h3 {

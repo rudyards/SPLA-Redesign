@@ -17,8 +17,8 @@ class App extends Component {
       <div className="app">
         <div className="site-content">
           <Header />
-          <Row className="justify-content-xs-center">
-            <Col xs={{ span: 8, offset: 2 }} className="home-welcome">
+          <Row className="site-content">
+            <Col xs={10} className="home-welcome">
               <h3>Welcome!</h3>
               <p className="home-welcome-msg">
                 Nobody plans to be homeless. <br />
@@ -28,7 +28,7 @@ class App extends Component {
               <Button />
             </Col>
 
-            <Col xs={{ span: 8, offset: 2 }} className="home-about">
+            <Col xs={10} className="home-about">
               <h3>About</h3>
               <p className="home-about-msg">
                 Safe Parking programs are a safe and legal homelessness
@@ -36,8 +36,8 @@ class App extends Component {
                 who are living in their vehicles. <br /> <br />
                 All program locations include access to a restroom facility and
                 the security of a guard. Please begin the application by filling
-                out the interest form provided or call/text <br />
-                213-793-8493.
+                out the interest form provided or call/text <br />{" "}
+                <span className="phone-num">213-793-8493</span>
               </p>
               <Button />
             </Col>
