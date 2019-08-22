@@ -1,13 +1,12 @@
 .footer {
-  background: rgb(216 216 216);
+  background: rgb(45 45 45);
   padding: 31px 26px 38px 26px;
 }
 
 .sm-links {
   display: flex;
-  justify-content: space-around;
-
-  padding: 0 105px 15.5px 105px;
+  justify-content: space-between;
+  padding: 0 100px 15.5px 100px;
 }
 
 .footer-links {
@@ -17,7 +16,7 @@
 }
 
 .footer-link {
-  color: rgb(29 29 38);
+  color: rgb(255, 255, 255);
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -38,6 +37,6 @@
 .fa-facebook,
 .fa-instagram,
 .fa-envelope {
-  color: rgb(0, 0, 0);
+  color: rgb(45, 45, 45);
   font-size: 20px;
 }
