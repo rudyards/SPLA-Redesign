@@ -19,10 +19,16 @@
   min-height: 100vh;
 }
 
-.site-content {
+.site-content,
+.site-content-row {
   flex: 1 0 auto;
+  width: 100%;
   padding: var(--space) var(--space) 0;
   justify-content: center;
+}
+
+.row {
+  margin: 0;
 }
 
 .site-content:after {
@@ -41,8 +47,9 @@
 .home-welcome {
   background: url("https://i.imgur.com/qt1zREv.png");
   background-size: cover;
-  height: 394pt;
-  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 54px 5px;
 }
 
 .home-welcome > h3 {
