@@ -39,41 +39,6 @@
   visibility: hidden;
 }
 
-.home-about,
-.home-welcome {
-  text-align: center;
-}
-
-.home-welcome {
-  background: url("https://i.imgur.com/qt1zREv.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 54px 5px;
-}
-
-.home-welcome > h3 {
-  color: rgb(255, 255, 255);
-}
-
-.home-welcome-msg {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  letter-spacing: 0.1pt;
-  color: rgb(255, 255, 255);
-}
-
-.home-about-msg {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  letter-spacing: 0.09pt;
-}
-
-.phone-num {
-  color: #11679b;
-}
-
 h3 {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;

@@ -2,27 +2,29 @@ import React from "react";
 
 import "./HomePage.css";
 import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
 import { Row, Col } from "react-bootstrap";
 import Button from "../../components/Button/Button";
 
 const HomePage = props => {
   return (
     <div>
-      <Header />
-      <Row className="site-content-row">
-        <Col xs={12} className="home-welcome">
-          <h3>Welcome!</h3>
-          <Col xs={{ span: 10, offset: 1 }}>
-            <p className="home-welcome-msg">
-              Nobody plans to be homeless. <br />
-              You’ve taken the first step towards help. <br />
-              You’re on the right track
-            </p>
+      <div className="home-main-img">
+        <Header />
+        <Row className="site-content-row">
+          <Col xs={12} className="home-welcome">
+            <h3>Welcome!</h3>
+            <Col xs={{ span: 10, offset: 1 }}>
+              <p className="home-welcome-msg">
+                Nobody plans to be homeless. <br />
+                You’ve taken the first step towards help. <br />
+                You’re on the right track
+              </p>
+            </Col>
+            <Button />
           </Col>
-          <Button />
-        </Col>
-
+        </Row>
+      </div>
+      <Row>
         <Col xs={12} className="home-about">
           <h3>About</h3>
           <p className="home-about-msg">
