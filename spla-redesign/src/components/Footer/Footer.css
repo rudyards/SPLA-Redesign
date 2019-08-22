@@ -6,7 +6,7 @@
 .sm-links {
   display: flex;
   justify-content: space-between;
-  padding: 0 100px 15.5px 100px;
+  padding-bottom: 15.5px;
 }
 
 .footer-links {
@@ -17,7 +17,7 @@
 
 .footer-link {
   color: rgb(255, 255, 255);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
@@ -32,6 +32,12 @@
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   text-decoration: none;
+}
+
+.sm-link:hover,
+.footer-link:hover {
+  text-decoration: none;
+  color: rgb(240 130 34);
 }
 
 .fa-facebook,
