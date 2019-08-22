@@ -11,21 +11,21 @@ const Footer = props => {
           target="_blank"
           className="sm-link"
         >
-          <i class="fab fa-facebook" />
+          <i className="fab fa-facebook" />
         </a>
         <a
           href="http://instagram.com/safeparking_la"
           target="_blank"
           className="sm-link"
         >
-          <i class="fab fa-instagram" />
+          <i className="fab fa-instagram" />
         </a>
         <a
           href="mailto:info@safeparkingla.org"
           target="_blank"
           className="sm-link"
         >
-          <i class="far fa-envelope" />
+          <i className="far fa-envelope" />
         </a>
       </div>
       <div className="footer-links">

@@ -8,7 +8,7 @@ const Header = props => {
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <a className="navbar-brand"> <img src="//static1.squarespace.com/static/582dc9ea6a4963e5091cd8cd/t/58eeee60414fb57371fdf24d/1561049620762/?format=1500w" alt="Safe Parking LA" class="Header-branding-logo"></img></a>
+            <a className="navbar-brand"> <img src="//static1.squarespace.com/static/582dc9ea6a4963e5091cd8cd/t/58eeee60414fb57371fdf24d/1561049620762/?format=1500w" alt="Safe Parking LA" className="Header-branding-logo"></img></a>
 
             <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -19,7 +19,7 @@ const Header = props => {
                         <a className="nav-link" href="#">Link</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
             </div>
