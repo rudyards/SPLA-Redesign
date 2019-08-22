@@ -5,26 +5,40 @@ import "./Footer.css";
 const Footer = props => {
   return (
     <div className="footer">
-      <a href="https://www.facebook.com/SafeParkingLA/" target="_blank">
-        <i class="fab fa-facebook" />
-      </a>
-      <a href="http://instagram.com/safeparking_la" target="_blank">
-        <i class="fab fa-instagram" />
-      </a>
-      <a href="mailto:info@safeparkingla.org" target="_blank">
-        <i class="far fa-envelope" />
-      </a>
+      <div className="sm-links">
+        <a
+          href="https://www.facebook.com/SafeParkingLA/"
+          target="_blank"
+          className="sm-link"
+        >
+          <i class="fab fa-facebook" />
+        </a>
+        <a
+          href="http://instagram.com/safeparking_la"
+          target="_blank"
+          className="sm-link"
+        >
+          <i class="fab fa-instagram" />
+        </a>
+        <a
+          href="mailto:info@safeparkingla.org"
+          target="_blank"
+          className="sm-link"
+        >
+          <i class="far fa-envelope" />
+        </a>
+      </div>
       <div className="footer-links">
-        <Link to="/About" className="footer-links">
+        <Link to="/About" className="footer-link">
           About
         </Link>
-        <Link to="/Donate" className="footer-links">
+        <Link to="/Donate" className="footer-link">
           Donate
         </Link>
-        <Link to="/ContactUs" className="footer-links">
+        <Link to="/ContactUs" className="footer-link">
           Contact us
         </Link>
-        <Link to="/Resources" className="footer-links">
+        <Link to="/Resources" className="footer-link">
           Resources
         </Link>
       </div>
