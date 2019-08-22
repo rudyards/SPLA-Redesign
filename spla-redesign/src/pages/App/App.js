@@ -5,6 +5,7 @@ import Button from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import { Grid, Row, Col } from "react-bootstrap";
+import OptionsPage from "../OptionsPage/OptionsPage";
 
 class App extends Component {
   constructor() {
