@@ -1,0 +1,12 @@
+.footer {
+  background: rgb(216 216 216);
+  padding: 31px 26px 38px 26px;
+}
+
+.footer-links {
+  color: rgb(29 29 38);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+}

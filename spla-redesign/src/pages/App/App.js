@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
-import './App.css';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import React, { Component } from "react";
+import "./App.css";
+import { Route, Switch, Redirect } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
 
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-
-    }
+    this.state = {};
   }
 
   render() {
-    return(
+    return (
       <div>
         <h1>Hello World</h1>
+        <Footer />
       </div>
-    )
+    );
   }
 }
 
