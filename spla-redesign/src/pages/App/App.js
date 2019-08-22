@@ -6,6 +6,8 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import { Grid, Row, Col } from "react-bootstrap";
 import OptionsPage from "../OptionsPage/OptionsPage";
+import ConfirmationPage from "../ConfirmationPage/ConfirmationPage";
+import MapsPage from "../MapsPage/MapsPage";
 
 class App extends Component {
   constructor() {
@@ -49,7 +51,28 @@ class App extends Component {
             <Route
               exact
               path="/options"
-              render={({ history }) => <OptionsPage history={history} />}
+              render={({ history }) =>
+                <OptionsPage
+                  history={history}
+                />
+              }
+            />
+            <Route
+              exact
+              path="/confirmation"
+              render={({ history }) =>
+                <ConfirmationPage
+                  history={history}
+                />
+              }
+            />
+            <Route
+              exact
+              path="/map"
+              render={({ history }) =>
+                <MapsPage history={history}
+                />
+              }
             />
           </Switch>
         </div>
