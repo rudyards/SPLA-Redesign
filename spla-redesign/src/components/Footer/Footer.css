@@ -3,10 +3,41 @@
   padding: 31px 26px 38px 26px;
 }
 
+.sm-links {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 0 105px 15.5px 105px;
+}
+
 .footer-links {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15.5px;
+}
+
+.footer-link {
   color: rgb(29 29 38);
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
+}
+
+.sm-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-envelope {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
