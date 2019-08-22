@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-105.000000, -37.000000)" fill-rule="nonzero">
+            <g id="facebook" transform="translate(105.000000, 37.000000)">
+                <circle id="Oval" fill="#FFFFFF" cx="18.8648142" cy="18.8648142" r="18.8648142"></circle>
+                <path d="M23.6074159,19.603292 L20.2412212,19.603292 L20.2412212,31.935469 L15.1411504,31.935469 L15.1411504,19.603292 L12.7155398,19.603292 L12.7155398,15.2692743 L15.1411504,15.2692743 L15.1411504,12.4646726 C15.1411504,10.4590796 16.0938407,7.31853097 20.2866195,7.31853097 L24.0644248,7.33433628 L24.0644248,11.5412389 L21.3233805,11.5412389 C20.8737699,11.5412389 20.2415575,11.7658761 20.2415575,12.7226018 L20.2415575,15.2733097 L24.0529912,15.2733097 L23.6074159,19.603292 Z" id="Path" fill="#2D2D2D"></path>
+            </g>
+        </g>
+    </g>
+</svg>
