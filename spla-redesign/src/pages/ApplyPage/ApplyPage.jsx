@@ -27,7 +27,7 @@ const ApplyPage = props => {
               alt="car-img"
             />
           </div>
-          <Link id="btnColor-orange" className="btn" to="/map">
+          <Link id="btnColor-orange" className="btn" to="/applicationpage">
             Apply to Safe Parking
           </Link>
           <p className="home-about-msg">

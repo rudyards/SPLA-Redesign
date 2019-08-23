@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = props => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <button
         className="navbar-toggler"
         type="button"
@@ -27,18 +27,28 @@ const Header = props => {
       <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item active">
-            <Link className="nav-link" to="/">
-              Home <span className="sr-only">(current)</span>
+            <Link style={{color:'rgb(240, 130, 34)', fontWeight: '900', backgroundColor:'rgba(240,130,34,0.3)'}} className="nav-link" to="/apply">
+              APPLY <span className="sr-only">(current)</span>
             </Link>
           </li>
           <li className="nav-item active">
-            <Link className="nav-link" to="/options">
-              Options <span className="sr-only">(current)</span>
+            <Link className="nav-link" to="/about">
+              About <span className="sr-only">(current)</span>
             </Link>
           </li>
           <li className="nav-item active">
-            <Link className="nav-link" to="/map">
-              Map<span className="sr-only">(current)</span>
+            <Link className="nav-link" to="/resources">
+              Resouces<span className="sr-only">(current)</span>
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/donate">
+              Donate<span className="sr-only">(current)</span>
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/contactus">
+              Contact Us<span className="sr-only">(current)</span>
             </Link>
           </li>
         </ul>
