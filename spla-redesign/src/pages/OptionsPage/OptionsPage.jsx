@@ -3,16 +3,16 @@ import './OptionsPage.css'
 import { Row, Col } from "react-bootstrap";
 import Header from '../../components/Header/Header';
 import Button from '../../components/Button/Button';
+import {Link} from 'react-router-dom';
 
 const OptionsPage = props => {
     return (
         <div>
         <Header />
         <Row className="site-content-row">
-          <Col xs={10}>
+          <Col xs={{span: 10, offset: 1}}>
             <h3>WHAT DO YOU NEED?</h3>
-            
-            <Button buttonName={'Place to Park'}/>
+            <Link className='btn' to="/map" >Place to park</Link>
           </Col>
   
           <Col xs={12} className="home-about">
@@ -26,7 +26,7 @@ const OptionsPage = props => {
               interest form provided or call/text <br />{" "}
               <span className="phone-num">213-793-8493</span>
             </p>
-            <Button />
+            <Link className='btn' to="/" >Resources</Link>
           </Col>
         </Row>
       </div>

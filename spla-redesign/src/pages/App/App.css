@@ -45,3 +45,11 @@ h3 {
   font-weight: 700;
   font-size: 25pt;
 }
+
+#btnColor-orange {
+  color: rgb(240, 130, 34);
+}
+
+#btnColor-blue {
+  color: rgb(17, 103, 155);
+}
