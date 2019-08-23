@@ -10,19 +10,114 @@ const HomePage = props => {
   return (
     <div>
       <div className="home-main-img">
-        <Header />
-        <Row className="site-content-row">
-          <Col xs={12} className="home-welcome">
+        <nav className="navbar navbar-expand-lg navbar-light">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i className="fas fa-bars" style={{ color: "white" }} />
+          </button>
+          <Link className="navbar-brand" to="/">
+            <img
+              src="//static1.squarespace.com/static/582dc9ea6a4963e5091cd8cd/t/58eeee60414fb57371fdf24d/1561049620762/?format=1500w"
+              alt="Safe Parking LA"
+              className="Header-branding-logo"
+            />
+          </Link>
+
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li className="nav-item active">
+                <Link
+                  className="nav-link"
+                  to="/apply"
+                  style={{
+                    color: "rgb(255, 255, 255)",
+                    textAlign: "center",
+                    backgroundColor: "rgba(240, 130, 34, 0.3)"
+                  }}
+                >
+                  APPLY<span className="sr-only">(current)</span>
+                </Link>
+              </li>
+              <li className="nav-item active">
+                <Link
+                  className="nav-link"
+                  to="/about"
+                  style={{
+                    color: "white",
+                    textAlign: "center",
+                    backgroundColor: "rgba(255,255,255,0.3"
+                  }}
+                >
+                  About <span className="sr-only">(current)</span>
+                </Link>
+              </li>
+              <li className="nav-item active">
+                <Link
+                  className="nav-link"
+                  to="/resources"
+                  style={{
+                    color: "white",
+                    textAlign: "center",
+                    backgroundColor: "rgba(255,255,255,0.3"
+                  }}
+                >
+                  Resources <span className="sr-only">(current)</span>
+                </Link>
+              </li>
+              <li className="nav-item active">
+                <Link
+                  className="nav-link"
+                  to="/donate"
+                  style={{
+                    color: "white",
+                    textAlign: "center",
+                    backgroundColor: "rgba(255,255,255,0.3"
+                  }}
+                >
+                  Donate<span className="sr-only">(current)</span>
+                </Link>
+              </li>
+              <li className="nav-item active">
+                <Link
+                  className="nav-link"
+                  to="/contactus"
+                  style={{
+                    color: "white",
+                    textAlign: "center",
+                    backgroundColor: "rgba(255,255,255,0.3"
+                  }}
+                >
+                  Contact Us<span className="sr-only">(current)</span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <Row className="site-content-row justify-context-xs-center">
+          <Col xs={12} lg={{ span: 6, offset: 1 }} className="home-welcome">
             <h3>Welcome!</h3>
-            <Col xs={{ span: 10, offset: 1 }}>
+            <Col
+              xs={{ span: 12 }}
+              lg={{ span: 6 }}
+              className="home-welcome-msg"
+            >
               <p className="home-welcome-msg">
                 Nobody plans to be homeless. <br />
                 You’ve taken the first step towards help. <br />
                 You’re on the right track
               </p>
-              <Link to="/options" className="btn">
-                Get Started
-              </Link>
+              <Col xs={{ span: 10, offset: 1 }}>
+                <Link to="/options" className="btn-org">
+                  Get Started
+                </Link>
+              </Col>
             </Col>
           </Col>
         </Row>
@@ -39,7 +134,11 @@ const HomePage = props => {
             interest form provided or call/text <br />{" "}
             <span className="phone-num">213-793-8493</span>
           </p>
-          <Button buttonName={"About"} />
+          <Col xs={{ span: 10, offset: 1 }}>
+            <Link to="/about" className="btn">
+              About
+            </Link>
+          </Col>
         </Col>
       </Row>
       <Row>
@@ -53,7 +152,11 @@ const HomePage = props => {
             In August 2018, after two years of living in their car, Lawrence and
             Carla McCue finally picked up the keys to their very own apartment.
           </p>
-          <Button buttonName={"Read More"} />
+          <Col xs={{ span: 10, offset: 1 }}>
+            <Link to="/stories" className="btn">
+              Read More
+            </Link>
+          </Col>
         </Col>
       </Row>
     </div>
