@@ -1,9 +1,11 @@
 .home-about,
-.home-welcome {
+.home-welcome,
+.home-story {
   text-align: center;
 }
 
-.home-about {
+.home-about,
+.home-story {
   padding: 46px 30px;
 }
 
@@ -22,7 +24,8 @@
   color: rgb(255, 255, 255);
 }
 
-.home-about-msg {
+.home-about-msg,
+.story {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -38,4 +41,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.home-story-img {
+  width: 100%;
 }
