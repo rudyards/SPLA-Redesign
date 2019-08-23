@@ -2,7 +2,8 @@ import React from "react";
 import "./AboutPage.css";
 import Header from "../../components/Header/Header";
 import { Row, Col } from "react-bootstrap";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import AboutPageNav from "../../components/PageNavs/AboutPageNav";
 
 const AboutPage = props => {
   return (
@@ -14,39 +15,7 @@ const AboutPage = props => {
           alt="Safe Parking LA"
           className="home-story-img"
         />
-        <div className="aboutSpla-container">
-          <ul
-
-            className="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li className="nav-item active ">
-              <button
-                style={{
-                  color: "rgb(240, 130, 34)",
-                  fontWeight: "900",
-                  backgroundColor: "rgba(240,130,34,0.3)"
-                }}
-                className="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarTogglerAbout"
-                aria-controls="navbarTogglerAbout"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                About Safe Parking LA
-            </button>
-              <div className="collapse navbar-collapse " id="navbarTogglerAbout"
-              >
-                <ul className="navbar-nav mr-auto mt-2 mt-lg-0 ">
-                  <li className="nav-item active">Our Process</li>
-                  <li className="nav-item active">In The News</li>
-                  <li className="nav-item active">Events</li>
-                  <li className="nav-item active">Partner with Us</li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <AboutPageNav />
         <Col xs={12} className="home-story">
           <h3>About Safe Parking LA</h3>
           <p className="story">
