@@ -32,13 +32,7 @@ class ResourcesPage extends Component {
         <Col xs={12} style={{ textAlign: "center" }}>
           <h3>Resources Near Me</h3>
          
-            <ResourceForm handleAreaChange={this.handleAreaChange.bind(this)} />
-
-              {/*  
-                {this.state.resources.map((resource, idx) =>
-
-              )}
-              */}
+            
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0" >
             <li className="nav-item active">
             <button
@@ -74,6 +68,15 @@ class ResourcesPage extends Component {
           </li>
             </ul>
           
+
+          Your Location:
+          <ResourceForm handleAreaChange={this.handleAreaChange.bind(this)} />
+
+            {/*  
+              {this.state.resources.map((resource, idx) =>
+
+            )}
+            */}
         </Col>
       </Row>
     </div>
