@@ -1,10 +1,12 @@
-import React from 'react';
-import './ContactPage.css';
+import React from "react";
+import "./ContactPage.css";
 
-const ContactPage = (props) => {
+const ContactPage = props => {
+  return (
     <div>
-        <h1>Hello From Contact</h1>
+      <h1>Hello From Contact</h1>
     </div>
-}
+  );
+};
 
 export default ContactPage;
