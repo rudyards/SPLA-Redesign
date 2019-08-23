@@ -5,7 +5,7 @@ const mapStyles = {
   map: {
     position: 'absolute',
     width: '100%',
-    height: '100%'
+    height: '50%'
   }
 };
 
@@ -39,10 +39,12 @@ export class CurrentLocation extends React.Component {
     const google = this.props.google;
     const maps = google.maps;
 
+
     if (map) {
       let center = new maps.LatLng(current.lat, current.lng);
       map.panTo(center);
     }
+    console.log(current)
   }
 
    componentDidMount() {
@@ -59,6 +61,7 @@ export class CurrentLocation extends React.Component {
         });
       }
     }
+
     this.loadMap();
   }
 
@@ -122,9 +125,9 @@ export default CurrentLocation;
 CurrentLocation.defaultProps = {
   zoom: 14,
   initialCenter: {
-    lat: -1.2884,
-    lng: 36.8233
+    lat: 34.004021,
+    lng: -118.483124
   },
-  centerAroundCurrentLocation: false,
+  centerAroundCurrentLocation: true ,
   visible: true
 };

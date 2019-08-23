@@ -31,14 +31,14 @@ export class MapContainer extends Component {
         centerAroundCurrentLocation
         google={this.props.google}
       >
-        <Marker onClick={this.onMarkerClick} name={'You Are Here'} />
+        <Marker onClick={this.onMarkerClick} name={'Current Location'} />
         <InfoWindow
           marker={this.state.activeMarker}
           visible={this.state.showingInfoWindow}
           onClose={this.onClose}
         >
           <div>
-            <h4>{this.state.selectedPlace.name}</h4>
+            <h4>{this.state.selectedPlace.name} </h4>
           </div>
         </InfoWindow>
       </CurrentLocation>
