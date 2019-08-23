@@ -14,6 +14,11 @@ import DonatePage from "../DonatePage/DonatePage";
 import ContactPage from "../ContactPage/ContactPage";
 import MapsPage from "../MapsPage/MapsPage";
 import ApplicationPage from "../ApplicationPage/ApplicationPage";
+import ProcessPage from "../AboutPage/ProcessPage";
+import NewsPage from "../AboutPage/NewsPage";
+import PartnerPages from "../AboutPage/ProcessPage";
+import VeteransPage from "../ResourcesPage/VeteransPage";
+import GreenStreets from "../ResourcesPage/GreenStreets";
 
 class App extends Component {
   constructor() {
@@ -43,8 +48,33 @@ class App extends Component {
             />
             <Route
               exact
+              path="/about/ourprocess"
+              render={({ history }) => <ProcessPage history={history} />}
+            />
+            <Route
+              exact
+              path="/about/news"
+              render={({ history }) => <NewsPage history={history} />}
+            />
+            <Route
+              exact
+              path="/about/partner"
+              render={({ history }) => <PartnerPages history={history} />}
+            />
+            <Route
+              exact
               path="/resources"
               render={({ history }) => <ResourcesPage history={history} />}
+            />
+            <Route
+              exact
+              path="/resources/veterans"
+              render={({ history }) => <VeteransPage history={history} />}
+            />
+            <Route
+              exact
+              path="/resources/greenstreets"
+              render={({ history }) => <GreenStreets history={history} />}
             />
             <Route
               exact
