@@ -3,33 +3,42 @@ import './OptionsPage.css'
 import { Row, Col } from "react-bootstrap";
 import Header from '../../components/Header/Header';
 import Button from '../../components/Button/Button';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 
 const OptionsPage = props => {
     return (
         <div>
-        <Header />
-        <Row className="site-content-row">
-          <Col xs={{span: 10, offset: 1}}>
-            <h3>WHAT DO YOU NEED?</h3>
-            <Link className='btn' to="/map" >Place to park</Link>
-          </Col>
-  
-          <Col xs={12} className="home-about">
-            <h3>About</h3>
-            <p className="home-about-msg">
-              Safe Parking programs are a safe and legal homelessness intervention
-              to stabilize and connect to resources for people who are living in
-              their vehicles. <br /> <br />
-              All program locations include access to a restroom facility and the
-              security of a guard. Please begin the application by filling out the
-              interest form provided or call/text <br />{" "}
-              <span className="phone-num">213-793-8493</span>
-            </p>
-            <Link className='btn' to="/" >Resources</Link>
-          </Col>
-        </Row>
-      </div>
+            <Header />
+            <Row className="site-content-row">
+                <Col xs={{ span: 10, offset: 0}}>
+                    <h3 style={{ fontSize: '20px', textAlign: 'center', marginTop: '15vmin' }} >WHAT DO YOU NEED?</h3>
+                    <div className='carImg-container'>
+                    <img 
+                    className='carImg'
+                    src="https://i.imgur.com/GMztFRe.png"
+                    alt='car-img'
+                    />
+                    </div>
+                    <Link id="btnColor-orange" className='btn' to="/map" >Apply to Safe Parking</Link>
+                    <p className="home-about-msg">Apply for a spot in one of our Safe Parking LA lots </p>
+                </Col>
+                <Col xs={{ span: 10, offset: 0}}>
+                    <div className='chatImg-container'>
+                    <img 
+                    className='chatImg'
+                    src='https://i.imgur.com/bmcQ7o9.png'
+                    alt='chat-box'
+                    />
+                    </div>
+                    <Link className='btn' to="/" >Resources</Link>
+                    
+                    <p className="home-about-msg">Find services and resources in your area</p>
+                    <p className="home-about-msg">* For medical emergencies, please call 911.</p>
+                    
+                </Col>
+            </Row>
+        </div>
     );
 }
 

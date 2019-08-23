@@ -21,7 +21,6 @@ const Header = props => {
                     <li className="nav-item active">
                         <Link className="nav-link" to="/map">Map<span className="sr-only">(current)</span></Link>
                     </li>
-                   
                 </ul>
             </div>
         </nav>
