@@ -6,7 +6,6 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import { Grid, Row, Col } from "react-bootstrap";
 import HomePage from "../HomePage/HomePage";
-import OptionsPage from "../OptionsPage/OptionsPage";
 import ConfirmationPage from "../ConfirmationPage/ConfirmationPage";
 import ApplyPage from "../ApplyPage/ApplyPage";
 import AboutPage from "../AboutPage/AboutPage";
