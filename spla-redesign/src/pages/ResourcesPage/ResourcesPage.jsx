@@ -1,10 +1,30 @@
-import React from "react";
+import React, { Component } from 'react';
 import "./ResourcesPage.css";
+import ResourceForm from '../../components/ResourceForm/ResourceForm'
 import Header from "../../components/Header/Header";
 import { Row, Col } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 
-const ResourcesPage = props => {
+class ResourcesPage extends Component {
+
+    constructor(){
+        super();
+        this.state = {
+            area: 1,
+            resources: []
+          }
+    }
+  
+
+  handleAreaChange = (e) => {
+    this.setState({area: e.target.value })
+    {/* Access database */}
+    {/* Search for all documents where Service Planning/Geographic Area == e.target.value */}
+    {/* Clear this.state.resources, and then add each of those to this.state.resources*/}
+  }
+
+
+  render(){
   return (
     <div>
       <Header />
@@ -12,6 +32,13 @@ const ResourcesPage = props => {
         <Col xs={12} style={{ textAlign: "center" }}>
           <h3>Resources Near Me</h3>
          
+            <ResourceForm handleAreaChange={this.handleAreaChange.bind(this)} />
+
+              {/*  
+                {this.state.resources.map((resource, idx) =>
+
+              )}
+              */}
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0" >
             <li className="nav-item active">
             <button
@@ -51,6 +78,7 @@ const ResourcesPage = props => {
       </Row>
     </div>
   );
+  }
 };
 
 export default ResourcesPage;
