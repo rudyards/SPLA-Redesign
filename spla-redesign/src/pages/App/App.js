@@ -8,6 +8,11 @@ import { Grid, Row, Col } from "react-bootstrap";
 import HomePage from "../HomePage/HomePage";
 import OptionsPage from "../OptionsPage/OptionsPage";
 import ConfirmationPage from "../ConfirmationPage/ConfirmationPage";
+import ApplyPage from "../ApplyPage/ApplyPage";
+import AboutPage from "../AboutPage/AboutPage";
+import ResourcesPage from "../ResourcesPage/ResourcesPage";
+import DonatePage from "../DonatePage/DonatePage";
+import ContactPage from "../ContactPage/ContactPage";
 import MapsPage from "../MapsPage/MapsPage";
 
 class App extends Component {
@@ -28,8 +33,28 @@ class App extends Component {
             />
             <Route
               exact
-              path="/options"
-              render={({ history }) => <OptionsPage history={history} />}
+              path="/apply"
+              render={({ history }) => <ApplyPage history={history} />}
+            />
+            <Route
+              exact
+              path="/about"
+              render={({ history }) => <AboutPage history={history} />}
+            />
+            <Route
+              exact
+              path="/resources"
+              render={({ history }) => <ResourcesPage history={history} />}
+            />
+            <Route
+              exact
+              path="/donate"
+              render={({ history }) => <DonatePage history={history} />}
+            />
+            <Route
+              exact
+              path="/contactus"
+              render={({ history }) => <ContactPage history={history} />}
             />
             <Route
               exact
