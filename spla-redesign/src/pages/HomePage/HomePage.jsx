@@ -10,7 +10,10 @@ const HomePage = props => {
   return (
     <div>
       <div className="home-main-img">
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav
+          className="navbar navbar-expand-lg navbar-light"
+          style={{ background: "none" }}
+        >
           <button
             className="navbar-toggler"
             type="button"
@@ -72,9 +75,9 @@ const HomePage = props => {
                 </Link>
               </li>
               <li className="nav-item active">
-                <Link
+                <a
                   className="nav-link"
-                  to="/donate"
+                  href="https://safeparkingla.networkforgood.com/projects/68953-safe-parking-la"
                   style={{
                     color: "white",
                     textAlign: "center",
@@ -82,7 +85,7 @@ const HomePage = props => {
                   }}
                 >
                   Donate<span className="sr-only">(current)</span>
-                </Link>
+                </a>
               </li>
               <li className="nav-item active">
                 <Link

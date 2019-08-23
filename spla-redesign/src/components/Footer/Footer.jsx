@@ -35,16 +35,19 @@ const Footer = props => {
           </a>
         </Col>
         <Col xs={12} md={{ span: 6, order: 1 }} className="footer-links">
-          <Link to="/About" className="footer-link">
+          <Link to="/about" className="footer-link">
             About
           </Link>
-          <Link to="/Donate" className="footer-link">
+          <a
+            className="footer-link"
+            href="https://safeparkingla.networkforgood.com/projects/68953-safe-parking-la"
+          >
             Donate
-          </Link>
-          <Link to="/ContactUs" className="footer-link">
+          </a>
+          <Link to="/contactus" className="footer-link">
             Contact us
           </Link>
-          <Link to="/Resources" className="footer-link">
+          <Link to="/resources" className="footer-link">
             Resources
           </Link>
         </Col>
