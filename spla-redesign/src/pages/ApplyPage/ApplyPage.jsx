@@ -5,7 +5,7 @@ import Header from "../../components/Header/Header";
 import Button from "../../components/Button/Button";
 import { Link } from "react-router-dom";
 
-const OptionsPage = props => {
+const ApplyPage = props => {
   return (
     <div>
       <Header />
@@ -58,4 +58,4 @@ const OptionsPage = props => {
   );
 };
 
-export default OptionsPage;
+export default ApplyPage;
