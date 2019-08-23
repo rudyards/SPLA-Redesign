@@ -4,6 +4,11 @@
   text-align: center;
 }
 
+.site-content-row {
+  display: flex;
+  flex-direction: column;
+}
+
 .home-about,
 .home-story {
   padding: 46px 30px;
@@ -22,6 +27,7 @@
   font-size: 20px;
   letter-spacing: 0.1pt;
   color: rgb(255, 255, 255);
+  padding: 0 15px;
 }
 
 .home-about-msg,
@@ -45,4 +51,19 @@
 
 .home-story-img {
   width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .home-welcome {
+    text-align: left;
+  }
+  .home-welcome-msg {
+    padding: 0;
+  }
+  .home-about-msg,
+  .story {
+    font-size: 23px;
+    line-height: 33px;
+    letter-spacing: 0.12pt;
+  }
 }
