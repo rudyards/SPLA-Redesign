@@ -6,7 +6,9 @@ module.exports = {
 }
 
 function getAllResources(req, res){
+    console.log("Looking")
     Resource.find({}).then(function(resource){
+        console.log("The Resource:",resource)
         res.status(200).json(resource);
     })
 }

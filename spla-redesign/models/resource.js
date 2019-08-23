@@ -15,4 +15,4 @@ const resourceSchema = new Schema({
     eligibility: String
 })
 
-module.exports = mongoose.model('Resource', resourceSchema);
+module.exports = mongoose.model('Resource', resourceSchema, "Resources");
