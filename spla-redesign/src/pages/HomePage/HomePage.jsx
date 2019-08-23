@@ -114,7 +114,7 @@ const HomePage = props => {
                 You’re on the right track
               </p>
               <Col xs={{ span: 10, offset: 1 }}>
-                <Link to="/options" className="btn-org">
+                <Link to="/apply" className="btn-org">
                   Get Started
                 </Link>
               </Col>

@@ -13,6 +13,7 @@ import ResourcesPage from "../ResourcesPage/ResourcesPage";
 import DonatePage from "../DonatePage/DonatePage";
 import ContactPage from "../ContactPage/ContactPage";
 import MapsPage from "../MapsPage/MapsPage";
+import ApplicationPage from "../ApplicationPage/ApplicationPage";
 
 class App extends Component {
   constructor() {
@@ -64,6 +65,11 @@ class App extends Component {
               exact
               path="/map"
               render={({ history }) => <MapsPage history={history} />}
+            />
+            <Route
+              exact
+              path="/applicationpage"
+              render={({ history }) => <ApplicationPage history={history} />}
             />
           </Switch>
         </div>
