@@ -10,7 +10,7 @@ const ApplyPage = props => {
     <div>
       <Header />
       <Row className="site-content-row">
-        <Col xs={{ span: 10, offset: 0 }}>
+        <Col xs={{ span: 10, offset: 1 }} lg={{ span: 5, offset: 1 }}>
           <h3
             style={{
               fontSize: "20px",
@@ -30,11 +30,12 @@ const ApplyPage = props => {
           <Link id="btnColor-orange" className="btn" to="/applicationpage">
             Apply to Safe Parking
           </Link>
-          <p className="home-about-msg">
+          <br />
+          <p className="home-about-msg" style={{ textAlign: "center" }}>
             Apply for a spot in one of our Safe Parking LA lots{" "}
           </p>
         </Col>
-        <Col xs={{ span: 10, offset: 0 }}>
+        <Col xs={{ span: 10, offset: 1 }} lg={{ span: 5, offset: 1 }}>
           <div className="chatImg-container">
             <img
               className="chatImg"
@@ -42,14 +43,14 @@ const ApplyPage = props => {
               alt="chat-box"
             />
           </div>
-          <Link className="btn" to="/">
+          <Link className="btn" to="/resources">
             Resources
           </Link>
-
-          <p className="home-about-msg">
+          <br />
+          <p className="home-about-msg" style={{ textAlign: "center" }}>
             Find services and resources in your area
           </p>
-          <p className="home-about-msg">
+          <p className="home-about-msg" style={{ textAlign: "center" }}>
             * For medical emergencies, please call 911.
           </p>
         </Col>
