@@ -12,34 +12,34 @@ class ResourcesPage extends Component {
     super();
     this.state = {
       area: 1,
-      resources: []
+      resources: 'https://airtable.com/embed/shrUfJHSxoKVIymPA?backgroundColor=green&viewControls=on'
     };
   }
 
   handleAreaChange = e => {
     this.setState({ area: e.target.value });
     if (e.target.value == 1){
-      this.setState({resources: `${shrUfJHSxoKVIymPA?backgroundColor=green&viewControls=on}`})
+      this.setState({resources: "https://airtable.com/embed/shrUfJHSxoKVIymPA?backgroundColor=green&viewControls=on"})
     }
     else if (e.target.value == 2){
-      this.setState({resources: `${shroD5GcPBeuHaXkz?backgroundColor=green&viewControls=on}`})
+      this.setState({resources: 'https://airtable.com/embed/shroD5GcPBeuHaXkz?backgroundColor=green&viewControls=on'})
     }
     else if (e.target.value == 3){
-      this.setState({resources: `${shrfpE78oDOHgaNli?backgroundColor=green&viewControls=on}`})
+      this.setState({resources: 'https://airtable.com/embed/shrfpE78oDOHgaNli?backgroundColor=green&viewControls=on'})
     }
     else if (e.target.value == 4){
-      this.setState({resources: `${shrMgK1WPaHDTrSCY?backgroundColor=green&viewControls=on}`})
+      this.setState({resources: 'https://airtable.com/embed/shrMgK1WPaHDTrSCY?backgroundColor=green&viewControls=on'})
     }
     else if (e.target.value == 5){
-      this.setState({resources: `${shr0hVcXFSzGloHT4?backgroundColor=green&viewControls=on}`})
+      this.setState({resources: 'https://airtable.com/embed/shr0hVcXFSzGloHT4?backgroundColor=green&viewControls=on'})
     }else if (e.target.value == 6){
-      this.setState({resources: `${shrKAIM41cIwkcamg?backgroundColor=green&viewControls=on}`})
+      this.setState({resources: 'https://airtable.com/embed/shrKAIM41cIwkcamg?backgroundColor=green&viewControls=on'})
     }
     else if (e.target.value == 7){
-      this.setState({resources: `${shrcoyRWksO5h3hC7?backgroundColor=green&viewControls=on}`})
+      this.setState({resources: 'https://airtable.com/embed/shrcoyRWksO5h3hC7?backgroundColor=green&viewControls=on'})
     }
     else if (e.target.value == 8){
-      this.setState({resources: `${shrnRZVPxeTuS9lUB?backgroundColor=green&viewControls=on}`})
+      this.setState({resources: 'https://airtable.com/embed/shrnRZVPxeTuS9lUB?backgroundColor=green&viewControls=on'})
     }
   };
 
@@ -59,7 +59,7 @@ class ResourcesPage extends Component {
             Your Location:
             <ResourceForm handleAreaChange={this.handleAreaChange.bind(this)} />
   
-            <iframe class="airtable-embed" src="https://airtable.com/embed/`${this.state.resources}" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc,"}}></iframe>
+            <iframe class="airtable-embed" src={this.state.resources} frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc,"}}></iframe>
             </Col>
         </Row>
       </div>
