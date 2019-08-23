@@ -17,6 +17,8 @@ import ApplicationPage from "../ApplicationPage/ApplicationPage";
 import ProcessPage from "../AboutPage/ProcessPage";
 import NewsPage from "../AboutPage/NewsPage";
 import PartnerPages from "../AboutPage/ProcessPage";
+import VeteransPage from "../ResourcesPage/VeteransPage";
+import GreenStreets from "../ResourcesPage/GreenStreets";
 
 class App extends Component {
   constructor() {
@@ -63,6 +65,16 @@ class App extends Component {
               exact
               path="/resources"
               render={({ history }) => <ResourcesPage history={history} />}
+            />
+            <Route
+              exact
+              path="/resources/veterans"
+              render={({ history }) => <VeteransPage history={history} />}
+            />
+            <Route
+              exact
+              path="/resources/greenstreets"
+              render={({ history }) => <GreenStreets history={history} />}
             />
             <Route
               exact

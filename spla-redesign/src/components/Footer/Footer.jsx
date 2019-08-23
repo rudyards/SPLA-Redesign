@@ -52,6 +52,12 @@ const Footer = props => {
           </Link>
         </Col>
       </Row>
+      <p
+        className="story"
+        style={{ fontSize: "12px", color: "white", textAlign: "center" }}
+      >
+        SafeParkingLA.org © 2018-2019
+      </p>
     </div>
   );
 };
