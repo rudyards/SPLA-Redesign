@@ -1,10 +1,12 @@
-import React from 'react';
-import './DonatePage.css';
+import React from "react";
+import "./DonatePage.css";
 
-const DonatePage = (props) => {
+const DonatePage = props => {
+  return (
     <div>
-        <h1>Hello from donatepage</h1>
+      <h1>Hello from donatepage</h1>
     </div>
-}
+  );
+};
 
 export default DonatePage;

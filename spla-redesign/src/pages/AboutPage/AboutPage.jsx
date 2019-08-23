@@ -1,10 +1,12 @@
-import React from 'react';
-import './AboutPage.css';
+import React from "react";
+import "./AboutPage.css";
 
-const AboutPage = (props) => {
+const AboutPage = props => {
+  return (
     <div>
-        <h1>Hello from aboutPage</h1>
+      <h1>Hello from aboutPage</h1>
     </div>
-}
+  );
+};
 
 export default AboutPage;
