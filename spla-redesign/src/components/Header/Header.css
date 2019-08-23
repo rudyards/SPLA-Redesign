@@ -22,3 +22,13 @@ img {
 .fa-bars {
   font-size: 30px;
 }
+
+@media (min-width: 1024px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+  }
+  
+}

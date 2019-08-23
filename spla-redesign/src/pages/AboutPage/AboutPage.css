@@ -1,0 +1,15 @@
+.aboutSpla-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#navbarTogglerAbout {
+    
+    background-color: rgba(224, 226, 234, 0.3);
+    padding: 10px;
+    margin: 0;
+}
+
+
+
