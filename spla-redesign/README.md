@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<img src = "https://static1.squarespace.com/static/582dc9ea6a4963e5091cd8cd/t/58eeee60414fb57371fdf24d/1561049620762/?format=1500w" width="200">
+</p>
 
-## Available Scripts
+# Safe Parking LA
 
-In the project directory, you can run:
+## Social Impact Hackathon
 
-### `npm start`
+### GOAL
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Redesign a client-facing mobile site for Safe Parking  Los Angeles that streamlines form-field entry for users while making results more scannable for the organization.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Presentation slides can be found <a href = "https://drive.google.com/open?id=1iAGR6FFhgj_n5BPA1h-Pe5ohTXaGtOu6"> here </a>.
 
-### `npm test`
+### TEAM
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Developers:
 
-### `npm run build`
+- <a href = https://caseydbrannon.com/> Casey Brannon </a>
+- <a href = https://jbokchoi.github.io/Portfolio/> Jessica Choi</a>
+- <a href= http://rudysummers.com/> Rudy Summers </a>
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+UX Team:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- <a href= https://www.evanchristdesign.com/> Evan Christ </a>
+- <a href =https://soojung.me/> Soo Jung </a>
+- <a href =https://www.ericwsmith.me/> Eric Smith </a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features:
 
-### `npm run eject`
+It was important of us to use technology that the client (Safe Parking LA) would be able to use with ease. As a non-profit we wanted to ensure they had tools that made their work easier and that they had the ability to upkeep on their own with out calling in external help.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- The application form was created using Google Forms (instead of their original AirTable forms) to allow for conditional questioning which streamlines the user experience, but is a tool that they can use to update the form themselves
+- AirTable was used as their backend database - something the organization already had in place
+- Using AirTable, added resources they had collated, and added a feature that allows users to find resources in geographical areas around LA County. This way, Safe Parking LA can continue to update these resources with the tools they already have.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+<img src="https://i.imgur.com/XYRzXdT.png" width="300">
+<img src=https://i.imgur.com/dQg7phR.png width="300">
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+<p style="text-align: center;">
+<a href = http://spla-app.herokuapp.com/>Safe Parking LA Redesigned App</a>
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
 
-### Code Splitting
+React | HTML5 | CSS3 | JavaScript | Node.js | AirTable API | Google Forms | Zapier | Bootstrap | React Bootstrap | Heroku | Adobe Photoshop | Adobe Illustrator | Zeplin | Sketch
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+---
 
-### Analyzing the Bundle Size
+## Next Steps
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Interactive location map on Resources Near Me to assist users in finding resources
+2. Google Maps integration to drop pins on resources available near users, but to also better assist SPLA with applicants' locations
+3. Toggle to allow for Spanish version of the website
